@@ -9,6 +9,8 @@ public class My_very_1st_contest {
         int A = Integer.parseInt(org[1]);
         int B = Integer.parseInt(org[2]);
         int X = A+B;
-        System.out.println(N-A + " " + N-X);
+        int a1 = N-A;
+        int a2 = N-X;
+        System.out.println(a1 + " " + a2);
     }
 }

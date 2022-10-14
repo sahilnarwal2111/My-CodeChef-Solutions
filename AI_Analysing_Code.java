@@ -6,5 +6,9 @@ public class AI_Analysing_Code {
         int t = sc.nextInt();
         if(t>1000) System.out.println("no");
         else System.out.println("yes");
+
+    
+    
     }
 }
+

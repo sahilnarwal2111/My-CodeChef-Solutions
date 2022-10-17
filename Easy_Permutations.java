@@ -12,4 +12,5 @@ public class Easy_Permutations {
             System.out.println();
         }
     }
+
 }

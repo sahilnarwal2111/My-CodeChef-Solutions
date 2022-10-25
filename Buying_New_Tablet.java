@@ -15,20 +15,19 @@ public class Buying_New_Tablet {
                 //price
                 arr[i][1] = sn.nextInt();
             }
-            int flag = 0;
-            int max_area =0;
-            for(int i = 0 ; i<n; i++){
-                if(arr[i][1]<= b){
-                    if(arr[i][0]>=max_area){
+            int max_area = 0;
+            for(int i = 0 ; i< n; i++){
+                if(arr[i][1]<=b){
+                    if(arr[i][0]>max_area){
                         max_area = arr[i][0];
                     }
                 }
-                else flag = 1;
             }
-            if(flag==1) System.out.println("no tablet");
+            if(max_area == 0){
+                System.out.println("no tablet");
+            }
             else System.out.println(max_area);
 
-//            int x = 1000000;
         }
     }
 }
